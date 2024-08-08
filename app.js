@@ -9,6 +9,7 @@ document.getElementById('khodamform').addEventListener('submit', function(e){
 
 function generatekhodam(nama){
   const khodams = [
+      'kosong',
       'Cacing berenang',
       'Kucing terbang',
       'ikan jalan',
@@ -21,6 +22,13 @@ function generatekhodam(nama){
       'kelinci joget',
       'kosong',
       'Naga kentut',
+      'kosong',
+      'Kosong',
+      'Macan putih',
+      'Monyet terbang',
+      'Semut',
+      'kosong',
+    
     ];
     
     const index = nama.length % khodams.length;
